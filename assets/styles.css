@@ -1,0 +1,130 @@
+/* assets/styles.css */
+@font-face {
+    font-family: "Canaro";
+    src: url("/fonts/Canaro W00 Medium.otf") format("opentype");
+    
+  
+}
+
+
+.header-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: #FFFFFF;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+/* styles.css */
+body {
+    font-family: "Canaro", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: 206, 201, 179;;
+}
+
+#left-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.667);
+    margin-bottom: 20px;
+}
+
+#right-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.table-container .dash-table-container {
+    background-color:#e2c0a0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;    
+    border: outset;
+    border-color: #edb692;
+    
+}
+
+
+.vertical-separator {
+  border-right: 2px solid #eb8e51;
+  margin-right: 10px;
+  padding-right: 10px;
+}
+
+.last-vertical-separator {
+  border-right: none;
+}
+
+.h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    
+}
+
+.h2 {    
+  margin-top: 15px;  
+  margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.dash_table {
+    margin: 0 auto;
+}
+
+.dash-table-container {    
+    display: flex;
+    justify-content: center;
+    align-items: right;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;   
+    border: outset;
+}
+
+.dropdown {
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0px;    
+  }
+  .dropdown .Select-control{
+    background-color: white;
+  }
+  .dropdown .Select-menu-outer{
+    background-color: white;
+  }
+  .dropdown .Select-value{
+    background-color: 206, 201, 179;
+    color: white;
+    font-size: 18px;  
+  }
+  .dropdown .VirtualizedSelectFocusedOption {
+    background-color: #b5855e;
+    color: black;
+  }
+  .dropdown .VirtualizedSelectOption  {
+    font-size: 14px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+  }
