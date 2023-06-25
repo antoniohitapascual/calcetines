@@ -12,6 +12,8 @@ import plotly.graph_objects as go
 
 #  *************************** CONFIGURACIÓN *************************** #º
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, "styles.css"])
+# Para render.com
+server = app.server
 app.title = 'El Calcetines: Dashboard'
 app._favicon = "favicon.png"
 
